@@ -1,0 +1,25 @@
+aid: seosorted-ai
+name: SEOsorted
+description: 'SEOsorted is a company surfaced via the API Evangelist harvest backlog (source: new-submission)
+  and added to the network as a stub for full-pipeline profiling.'
+url: https://artifacts.apis.io/seosorted-ai/apis.yml
+x-type: company
+x-source: harvest:new-submission
+x-tier: stub
+x-tier-reason: harvest
+specificationVersion: '0.20'
+created: '2026-11-16'
+modified: '2026-11-16'
+tags:
+- Company
+apis: []
+maintainers:
+- FN: Kin Lane
+  email: kin@apievangelist.com
+- FN: APIs.json
+  email: info@apis.io
+common:
+- type: Website
+  url: https://seosorted.ai
+x-submission-notes: 'Grey-area call approved by Kin 2026-11-16: docs at docs.seosorted.ai, /openapi.json'
+x-submission-probe: root 200, invented path 404; docs at docs.seosorted.ai, /openapi.json (2026-11-16)
